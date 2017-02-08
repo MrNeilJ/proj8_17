@@ -15,3 +15,18 @@ int main()
     return 0;
 
 }
+/**************************************************
+ *                  showValues                    *
+ *  This function displays the contents of an     *
+ *  integer array when passed the array's         *
+ *  address and its size as arguments             *
+ **************************************************/
+
+void showValues (int nums[], int size)
+{
+    for (int index = 0; index < size; index++)
+    {
+        cout << nums[index] << "    ";
+    }
+    cout << endl;
+}
